@@ -57,10 +57,6 @@ namespace Agora_RTC_Plugin.API_Example.Examples.Basic.JoinChannelVideo
             GameObject.Find("VideoCanvas/Scroll View/Viewport/Content/deviceIdSelect").SetActive(false);
             GameObject.Find("VideoCanvas/Scroll View/Viewport/Content/VideoSelectButton").SetActive(false);
 #endif
-
-            Invoke("InitEngine", 1f);
-
-            Invoke("JoinChannel", 3f);
         }
 
         // Update is called once per frame
