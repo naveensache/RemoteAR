@@ -38,6 +38,8 @@ namespace Agora_RTC_Plugin.API_Example.Examples.Basic.JoinChannelVideo
         public Dropdown _areaSelect;
         public GameObject _videoQualityItemPrefab;
 
+        [SerializeField] private Button switchCamera;
+
 
         // Use this for initialization
         private void Start()
@@ -61,6 +63,12 @@ namespace Agora_RTC_Plugin.API_Example.Examples.Basic.JoinChannelVideo
             Invoke("InitEngine", 1f);
 
             Invoke("JoinChannel", 3f);
+
+            switchCamera.onClick.AddListener(()=> { 
+            
+                RtcEngine.SwitchCamera();
+            
+            });
         }
 
         // Update is called once per frame
