@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 310468f085ef24732beac714c9bb64fd, type: 3}
   m_Name: AppIdInput
   m_EditorClassIdentifier: 
-  appID: 2cc1517698c740019312b8ea1c32fb7d
-  token: 007eJxTYKhbyfM+mEOji0sjpm7Pr+ 2FBSdf7hTwELrEweb3eoPGdw4FBqPkZENTQ3MzS4tkcxMDA0NLY0O
-    jJIvURMNkY600JPOU2/950xsCGRmYO7gZGKEQxGdhcE7MyWFgAAC4 sXZy
-  channelName: Unity_Channel
+  appID: 6d5383668a434fc5ac7d2fb0d995c607
+  token: 007eJxTYNh45+7hkAjtuz9ll+trSq/P2rBf1tt7/Yzu/hmG39yXvlipwGCWYmpsYWxmZpFoYmySlmyamGyeYpSWZJBiaWmabGZgvtBeKL0hkJEh9sFtVkYGCATxWRlC8zJLKhkYAMwRIQU=
+  channelName: Unity
